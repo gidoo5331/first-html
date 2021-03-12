@@ -117,7 +117,7 @@ p {
 
               /* meadia query sections */
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
   .title{
     font-size: 1.8rem;
@@ -129,4 +129,17 @@ p {
   }
 
 
+}
+
+
+@media screen and (device-height: 640px) {
+
+  .title{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+  }
+
+  #bottom{
+    padding: 50px 0;
+  }
 }
