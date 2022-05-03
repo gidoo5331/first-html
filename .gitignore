@@ -1,0 +1,3 @@
+.DS_Store
+
+#type all the file u want git to ignore here with their extensions(eg. secrets.txt)
